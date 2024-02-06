@@ -1,0 +1,4 @@
+pandas
+streamlit
+streamlit_lottie
+streamlit_on_Hover_tabs
