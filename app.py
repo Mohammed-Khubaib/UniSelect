@@ -41,11 +41,11 @@ def load_lottie_file(filepath:str):
 lottie_file1 =load_lottie_file('./Gloab.json')
 lottie_file2 =load_lottie_file('./uni.json')
 
-c0,c1,c2,c3= st.columns([0.15,0.25,0.35,0.25])
+c0,c1,c2,c3= st.columns([0.15,0.25,0.40,0.25])
 with c1:
     st_lottie(lottie_file1,speed=0.5,reverse=False,height=100,width=260)
 with c2:
-    st.title("Short Listing University")
+    st.title("University Shortlist")
 with c3:
     st_lottie(lottie_file2,speed=0.5,reverse=False,height=100,width=260)
 
