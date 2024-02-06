@@ -1,2 +1,4 @@
 pandas
 streamlit
+streamlit-lottie
+streamlit-on-Hover-tabs
